@@ -4,7 +4,7 @@
 
 This project is a collect-all comm/repo app tailored to the surrogacy journey, for Intended Parents & Gestational Carriers.
 
-## Requirements
+## Utilizations
 
 - Ruby
 - Rails
