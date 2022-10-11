@@ -1,4 +1,4 @@
 class DiarySerializer < ActiveModel::Serializer
   attributes :id, :entry, :comment
-  has_one :instance
+  has_one :journey
 end

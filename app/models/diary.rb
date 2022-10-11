@@ -1,3 +1,3 @@
 class Diary < ApplicationRecord
-  belongs_to :instance
+  belongs_to :journey
 end
