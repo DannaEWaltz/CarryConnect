@@ -45,8 +45,9 @@ function App() {
       <Card.ImgOverlay>
         <Card.Title className="text-end"><h1>CarryConnect</h1></Card.Title>
         <Card.Text className="text-end">
-          <h3>Your surrogacy journey app</h3>
+          <h3>Your Surrogacy Journey App</h3>
           <h3>For Intended Parents & Gestational Carriers</h3>
+          <p></p>
         </Card.Text>
       </Card.ImgOverlay>
           <Card.Body>           
