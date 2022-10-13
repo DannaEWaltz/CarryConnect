@@ -1,15 +1,15 @@
 import '../App.css';
-import { Container, Row, Col, Button, Image, Alert, Breadcrumb, Card, Form } from 'react-bootstrap';
+import { Container, Button, Alert, Breadcrumb, Card } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import NavBar from './NavBar';
-import Header from './Header';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import SignUp from './SignUp';
 import LogIn from './LogIn';
 import React, { useEffect, useState } from 'react';
 import Auth from './Auth';
-import CCoval from "../assets/CCoval.jpg";
-
+import Status from './Status';
+import Home from './Home';
+import bgd from "../assets/bgd.bmp";
 function App() {
 
 	const [user, setUser] = useState(null)
@@ -26,51 +26,40 @@ function App() {
   }
 
   return (
-    <div className="App">
-      <Container>
-      <Auth>
+    <div className="App">      
+      <Container className="text-center">
+       <Auth>
         <Router>
           <NavBar user={user} onLogout={handleLogout}/>
           <Routes>
-            <Route path='/' element={<Header />} />
+            <Route exact path='/' element={<Home />} />
             <Route path='/signup' element={<SignUp onLogin={setUser} />} /> 
             <Route path='/login' element={<LogIn />} />
+            <Route path='/status' element={<Status />} />
+            <Route path='/auth' element={<Auth />} /> 
           </Routes>
         </Router>
       </Auth>
-         <Form>
-          <Row>
-            <Col md>
-          <Form.Group controlId="formEmail">
-            <Form.Label>Email Address</Form.Label>
-            <Form.Control type="email" placeholder="example@email.com" />
-            <Form.Text className="text-muted">We'll never share your email address</Form.Text>
-          </Form.Group>
-          </Col>
-          <Col md>
-          <Form.Group controlId="formPassword">
-            <Form.Label>Password</Form.Label>
-            <Form.Control type="password" placeholder="Password" />
-          </Form.Group>
-            </Col>
-          </Row>
-          <Button variant="secondary" type="submit">Login</Button>
-        </Form>
-        <Image src={CCoval} width="auto" height="300" className="align-left" alt="logo"/>
-        <Card className="mb-3" style={{ color: "#000" }}>
-          <Card.Body>
-            <Card.Title>Card Example</Card.Title>
-            <Card.Text>This is an example of Bootstrap cards</Card.Text>
-            <Button variant="primary">Read More</Button>
+        <Card border="primary" style={{ width: '100%' }} className="bg-dark text-black">
+        <Card.Img src={bgd} alt="Card image" />
+      <Card.ImgOverlay>
+        <Card.Title className="text-end"><h1>CarryConnect</h1></Card.Title>
+        <Card.Text className="text-end">
+          <h3>Your surrogacy journey app</h3>
+          <h3>For Intended Parents & Gestational Carriers</h3>
+        </Card.Text>
+      </Card.ImgOverlay>
+          <Card.Body>           
+            <Button variant="secondary">Read More</Button>
           </Card.Body>
         </Card>
         <Breadcrumb>
-          <Breadcrumb.Item>Test</Breadcrumb.Item>
-          <Breadcrumb.Item>Test 2</Breadcrumb.Item>
-          <Breadcrumb.Item active>Test 3</Breadcrumb.Item>
+          <Breadcrumb.Item>Log</Breadcrumb.Item>
+          <Breadcrumb.Item>Questions</Breadcrumb.Item>
+          <Breadcrumb.Item active>Home</Breadcrumb.Item>
         </Breadcrumb>
-        <Alert variant="secondary">This is a button</Alert>
-        <Button>Test Button</Button>
+        <Alert variant="primary">What happens here</Alert>
+        <Button>Ryan Reynolds</Button>
         </Container>        
       </div>
   );

@@ -5,3 +5,5 @@ export const Status = React.createContext({
     signin: () => {},
     signout: () => {}
 });
+;
+export default Status
