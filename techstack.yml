@@ -1,0 +1,512 @@
+repo_name: DannaEWaltz/CarryConnect
+report_id: d14e56f965885036194966f8e1d9d2da
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-02T05:55:10+00:00'
+requested_by: DannaEWaltz
+provider: github
+branch: main
+detected_tools_count: 37
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/DannaEWaltz/CarryConnect
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/DannaEWaltz/CarryConnect
+  detection_source: Repo Metadata
+- name: Ruby
+  description: A dynamic, interpreted, open source programming language with a focus
+    on simplicity and productivity
+  website_url: https://www.ruby-lang.org
+  version: 2.7.4
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/989/ruby.png
+  detection_source_url: https://github.com/DannaEWaltz/CarryConnect/blob/main/Gemfile.lock
+  detection_source: Repo Metadata
+  last_updated_by: ihollander
+  last_updated_on: 2021-06-09 13:12:29.000000000 Z
+- name: Autoprefixer
+  description: PostCSS plugin to parse CSS and add vendor prefixes to CSS rules
+  website_url: https://github.com/postcss/autoprefixer
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/2202/72d087642cfce6fef6f2dabec5bf49e8_400x400.png
+  detection_source_url: https://github.com/DannaEWaltz/CarryConnect/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: "+"
+  last_updated_on: 2022-10-11 16:40:33.000000000 Z
+- name: Bootstrap
+  description: Simple and flexible HTML, CSS, and JS for popular UI components and
+    interactions
+  website_url: http://getbootstrap.com/
+  version: 5.2.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Front-End Frameworks
+  image_url: https://img.stackshare.io/service/1101/C9QJ7V3X.png
+  detection_source_url: https://github.com/DannaEWaltz/CarryConnect/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: "+"
+  last_updated_on: 2022-10-11 16:40:33.000000000 Z
+- name: PostCSS
+  description: Transform CSS with JS plugins
+  website_url: https://github.com/postcss/postcss
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/3339/rlFcjEdI.png
+  detection_source_url: https://github.com/DannaEWaltz/CarryConnect/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: ihollander
+  last_updated_on: 2021-06-09 13:12:29.000000000 Z
+- name: Rails
+  description: Web development that doesn't hurt
+  website_url: http://rubyonrails.org/
+  version: 6.1.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/990/x57_Lorv.png
+  detection_source_url: https://github.com/DannaEWaltz/CarryConnect/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: ihollander
+  last_updated_on: 2021-06-09 13:12:29.000000000 Z
+- name: React
+  description: A JavaScript library for building user interfaces
+  website_url: https://reactjs.org/
+  version: 17.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1020/OYIaJ1KK.png
+  detection_source_url: https://github.com/DannaEWaltz/CarryConnect/blob/main/client/package-lock.json
+  detection_source: client/package.json
+  last_updated_by: "+"
+  last_updated_on: 2022-10-11 16:40:33.000000000 Z
+- name: React Router
+  description: A complete routing solution for React.js
+  website_url: https://github.com/rackt/react-router
+  version: 6.4.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: JavaScript Framework Components
+  image_url: https://img.stackshare.io/service/3350/8261421.png
+  detection_source_url: https://github.com/DannaEWaltz/CarryConnect/blob/main/client/package-lock.json
+  detection_source: client/package.json
+  last_updated_by: "+"
+  last_updated_on: 2022-10-11 16:40:33.000000000 Z
+- name: PostgreSQL
+  description: A powerful, open source object-relational database system
+  website_url: http://www.postgresql.org/
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1028/ASOhU5xJ.png
+  detection_source_url: https://github.com/DannaEWaltz/CarryConnect/blob/main/Gemfile
+  detection_source: Gemfile
+  last_updated_by: ihollander
+  last_updated_on: 2021-06-09 13:12:29.000000000 Z
+- name: Babel
+  description: Use next generation JavaScript, today.
+  website_url: http://babeljs.io/
+  version: 7.19.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JavaScript Compilers
+  image_url: https://img.stackshare.io/service/2739/-1wfGjNw.png
+  detection_source_url: https://github.com/DannaEWaltz/CarryConnect/blob/main/client/package-lock.json
+  detection_source: client/package.json
+  last_updated_by: "+"
+  last_updated_on: 2022-10-11 16:40:33.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/DannaEWaltz/CarryConnect
+  detection_source: Repo Metadata
+- name: Puma
+  description: A Modern, Concurrent Web Server for Ruby
+  website_url: http://puma.io/
+  version: 5.3.2
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Web Servers
+  image_url: https://img.stackshare.io/service/1055/favicon.png
+  detection_source_url: https://github.com/DannaEWaltz/CarryConnect/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: ihollander
+  last_updated_on: 2021-06-09 13:12:29.000000000 Z
+- name: RSpec
+  description: Behaviour Driven Development for Ruby
+  website_url: https://rspec.info/
+  version: 5.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/2539/logo.png
+  detection_source_url: https://github.com/DannaEWaltz/CarryConnect/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: ihollander
+  last_updated_on: 2021-06-09 13:12:29.000000000 Z
+- name: Rails Spring
+  description: Rails application preloader
+  website_url: https://github.com/rails/spring
+  version: 2.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Rails Testing
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/DannaEWaltz/CarryConnect/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: ihollander
+  last_updated_on: 2021-06-09 13:12:29.000000000 Z
+- name: RubyGems
+  description: Easily download, install, and use ruby software packages on your system
+  website_url: https://rubygems.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/12795/5jL6-BA5_400x400.jpeg
+  detection_source_url: https://github.com/DannaEWaltz/CarryConnect/blob/main/Gemfile
+  detection_source: Gemfile
+  last_updated_by: ihollander
+  last_updated_on: 2021-06-09 13:12:29.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/DannaEWaltz/CarryConnect/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: ihollander
+  last_updated_on: 2021-06-09 13:12:29.000000000 Z
+- name: Twilio SendGrid
+  description: Email Delivery. Simplified.
+  website_url: http://sendgrid.com
+  open_source: false
+  hosted_saas: true
+  category: Communications
+  sub_category: Transactional Email
+  image_url: https://img.stackshare.io/service/43/kQ_6nwmP.jpg
+  detection_source_url: https://github.com/DannaEWaltz/CarryConnect/blob/main/config/environments/production.rb
+  detection_source: config/environments/production.rb
+  last_updated_by: ihollander
+  last_updated_on: 2021-06-09 13:12:29.000000000 Z
+- name: Bootsnap
+  description: Boot large ruby/rails apps faster, by Shopify
+  website_url: https://github.com/shopify/bootsnap
+  version: 1.7.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Ruby Utilities
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/DannaEWaltz/CarryConnect/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: ihollander
+  last_updated_on: 2021-06-09 13:12:29.000000000 Z
+- name: active_model_serializers
+  description: ActiveModel::Serializers allows you to generate your JSON in an object-oriented
+    and convention-driven manner
+  package_url: https://rubygems.org/active_model_serializers
+  version: 0.10.12
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19092/default_7d8fff827ba2485899e223ac4fb9773463ea4acd.png
+  detection_source_url: https://github.com/DannaEWaltz/CarryConnect/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: ihollander
+  last_updated_on: 2021-06-09 13:12:29.000000000 Z
+- name: bcrypt
+  description: Bcrypt
+  package_url: https://rubygems.org/bcrypt
+  version: 3.1.16
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19054/default_2be036aaca5c71baf790e00f1ef80dd37a625905.png
+  detection_source_url: https://github.com/DannaEWaltz/CarryConnect/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: ihollander
+  last_updated_on: 2021-06-09 13:12:29.000000000 Z
+- name: byebug
+  description: Byebug is a Ruby debugger
+  package_url: https://rubygems.org/byebug
+  version: 11.1.3
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18849/default_887cb273c504fac90d07fc552b7b223fbb32ca39.png
+  detection_source_url: https://github.com/DannaEWaltz/CarryConnect/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: ihollander
+  last_updated_on: 2021-06-09 13:12:29.000000000 Z
+- name: listen
+  description: The Listen gem listens to file modifications and notifies you about
+    the changes
+  package_url: https://rubygems.org/listen
+  version: 3.5.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18942/default_a51418802dbfb428c729400211798b5046fe4140.png
+  detection_source_url: https://github.com/DannaEWaltz/CarryConnect/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: ihollander
+  last_updated_on: 2021-06-09 13:12:29.000000000 Z
+- name: pg
+  description: Pg is the Ruby interface to the {PostgreSQL RDBMS}[http://www.postgresql.org/]
+  package_url: https://rubygems.org/pg
+  version: 1.2.3
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18855/default_d343d9a7c573fa5dcbeb4d3c43d2ffe4afa82cc1.png
+  detection_source_url: https://github.com/DannaEWaltz/CarryConnect/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: ihollander
+  last_updated_on: 2021-06-09 13:12:29.000000000 Z
+- name: rspec-json_expectations
+  description: Set of matchers and helpers to allow you test your APIs responses like
+    a pro
+  package_url: https://rubygems.org/rspec-json_expectations
+  version: 2.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/rubygems/image.png
+  detection_source_url: https://github.com/DannaEWaltz/CarryConnect/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: ihollander
+  last_updated_on: 2021-06-09 13:12:29.000000000 Z
+- name: rspec-rails
+  description: Rspec-rails is a testing framework for Rails 3+
+  package_url: https://rubygems.org/rspec-rails
+  version: 5.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18830/default_ba8d7756589e5fc0164687950e3f091b32554546.png
+  detection_source_url: https://github.com/DannaEWaltz/CarryConnect/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: ihollander
+  last_updated_on: 2021-06-09 13:12:29.000000000 Z
+- name: shoulda-matchers
+  description: Shoulda Matchers provides RSpec- and Minitest-compatible one-liners
+    to test common Rails functionality that
+  package_url: https://rubygems.org/shoulda-matchers
+  version: 4.5.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18912/default_f78521c51e3a38a8810251cfa8909b18ae0b40a8.png
+  detection_source_url: https://github.com/DannaEWaltz/CarryConnect/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: ihollander
+  last_updated_on: 2021-06-09 13:12:29.000000000 Z
+- name: spring
+  description: Preloads your application so things like console
+  package_url: https://rubygems.org/spring
+  version: 2.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19382/default_b8d34ca81aebc76c0b551b666a1d21df7e697544.png
+  detection_source_url: https://github.com/DannaEWaltz/CarryConnect/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: ihollander
+  last_updated_on: 2021-06-09 13:12:29.000000000 Z
+- name: tzinfo-data
+  description: TZInfo::Data contains data from the IANA Time Zone database packaged
+    as Ruby modules for use with TZInfo
+  package_url: https://rubygems.org/tzinfo-data
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19516/default_07037590725b871de29c1d2ebb4610950e953355.png
+  detection_source_url: https://github.com/DannaEWaltz/CarryConnect/blob/main/Gemfile
+  detection_source: Gemfile
+  last_updated_by: ihollander
+  last_updated_on: 2021-06-09 13:12:29.000000000 Z
+- name: "@babel/core"
+  description: Babel compiler core
+  package_url: https://www.npmjs.com/@babel/core
+  version: 7.19.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15810/default_004658cda9b38934f2871435e9dc15608c86e8be.png
+  detection_source_url: https://github.com/DannaEWaltz/CarryConnect/blob/main/client/package-lock.json
+  detection_source: client/package.json
+  last_updated_by: "+"
+  last_updated_on: 2022-10-11 16:40:33.000000000 Z
+- name: "@testing-library/jest-dom"
+  description: Custom jest matchers to test the state of the DOM
+  package_url: https://www.npmjs.com/@testing-library/jest-dom
+  version: 5.16.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17424/default_1cdcda15ebb7caed879f8340bc212b44c4ec9dac.png
+  detection_source_url: https://github.com/DannaEWaltz/CarryConnect/blob/main/client/package-lock.json
+  detection_source: client/package.json
+  last_updated_by: "+"
+  last_updated_on: 2022-10-11 16:40:33.000000000 Z
+- name: "@testing-library/react"
+  description: Simple and complete React DOM testing utilities that encourage good
+    testing practices
+  package_url: https://www.npmjs.com/@testing-library/react
+  version: 11.2.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16549/default_d522554c6a41cb28d922d6d3ad32ad4afa0e3bb5.png
+  detection_source_url: https://github.com/DannaEWaltz/CarryConnect/blob/main/client/package-lock.json
+  detection_source: client/package.json
+  last_updated_by: "+"
+  last_updated_on: 2022-10-11 16:40:33.000000000 Z
+- name: babel-core
+  description: Babel compiler core
+  package_url: https://www.npmjs.com/babel-core
+  version: 7.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15798/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/DannaEWaltz/CarryConnect/blob/main/client/package-lock.json
+  detection_source: client/package.json
+  last_updated_by: "+"
+  last_updated_on: 2022-10-11 16:40:33.000000000 Z
+- name: react-bootstrap
+  description: Bootstrap 3 components built with React
+  package_url: https://www.npmjs.com/react-bootstrap
+  version: 2.5.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16383/default_92302d1bbf4c0f67b862869662b4f69002c94aad.png
+  detection_source_url: https://github.com/DannaEWaltz/CarryConnect/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: "+"
+  last_updated_on: 2022-10-11 16:40:33.000000000 Z
+- name: react-dom
+  description: React package for working with the DOM
+  package_url: https://www.npmjs.com/react-dom
+  version: 17.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15808/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/DannaEWaltz/CarryConnect/blob/main/client/package-lock.json
+  detection_source: client/package.json
+  last_updated_by: "+"
+  last_updated_on: 2022-10-11 16:40:33.000000000 Z
+- name: react-router-dom
+  description: DOM bindings for React Router
+  package_url: https://www.npmjs.com/react-router-dom
+  version: 6.4.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16025/default_e25d1fbb04a118c79fb444294461417342bd03bf.png
+  detection_source_url: https://github.com/DannaEWaltz/CarryConnect/blob/main/client/package-lock.json
+  detection_source: client/package.json
+  last_updated_by: "+"
+  last_updated_on: 2022-10-11 16:40:33.000000000 Z
+- name: react-scripts
+  description: Configuration and scripts for Create React App
+  package_url: https://www.npmjs.com/react-scripts
+  version: 4.0.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15985/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
+  detection_source_url: https://github.com/DannaEWaltz/CarryConnect/blob/main/client/package-lock.json
+  detection_source: client/package.json
+  last_updated_by: "+"
+  last_updated_on: 2022-10-11 16:40:33.000000000 Z
